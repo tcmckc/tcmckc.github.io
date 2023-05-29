@@ -1,15 +1,19 @@
-// import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home';
+import About from './components/About';
+import Projects from './components/Projects';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p>
-          Hello World
-        </p>
+        <Home />
+        <About />
+        <Projects />
       </header>
+      <footer className="App-footer">
+        <p>©Copyright 2023 Tomoko S.I.</p>
+      </footer>
     </div>
   );
 }
